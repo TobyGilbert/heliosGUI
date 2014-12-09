@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 {
     QApplication app(argc,argv);
     MainWindow w;
-    w.setWindowTitle(QString("Path Tracer"));
+    w.setWindowTitle(QString("Helios"));
     w.show();
     app.exec();
 }
