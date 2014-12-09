@@ -1,8 +1,8 @@
-#include <QGuiApplication>
-
 #include "OpenGLWidget.h"
+//------------------------------------------------------------------------------------------------------------------------
+#include <QGuiApplication>
 #include <iostream>
-
+//------------------------------------------------------------------------------------------------------------------------
 OpenGLWidget::OpenGLWidget(const QGLFormat _format, QWidget *_parent) : QGLWidget(_format,_parent){
     // set this widget to have the initial keyboard focus
     setFocus();
@@ -23,7 +23,6 @@ void OpenGLWidget::initializeGL(){
 
     // as re-size is not explicitly called we need to do this.
     glViewport(0,0,width(),height());
-
 }
 //----------------------------------------------------------------------------------------------------------------------
 void OpenGLWidget::resizeGL(const int _w, const int _h){
