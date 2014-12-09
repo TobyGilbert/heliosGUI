@@ -5,6 +5,13 @@
 #include <QToolBar>
 #include <QToolButton>
 #include <QDockWidget>
+#include <QMenuBar>
+#include <QComboBox>
+#include <QGridLayout>
+#include <QSpacerItem>
+#include <QColorDialog>
+#include <QPushButton>
+#include <QDoubleSpinBox>
 //------------------------------------------------------------------------------------------------------------------------
 #include <OpenGLWidget.h>
 //------------------------------------------------------------------------------------------------------------------------
@@ -57,6 +64,30 @@ private:
     //------------------------------------------------------------------------------------------------------------------------
     QDockWidget *m_meshDock;
     //------------------------------------------------------------------------------------------------------------------------
+    /// @brief A Drop down menu for light type selection
+    //------------------------------------------------------------------------------------------------------------------------
+    QComboBox *m_lightType;
+    //------------------------------------------------------------------------------------------------------------------------
+    QGridLayout *m_lightDockLayout;
+    QGridLayout *m_meshDockLayout;
+    QWidget *m_lightWidget;
+    QWidget *m_meshWidget;
+    QSpacerItem *m_lightSpacer;
+    QSpacerItem *m_meshSpacer;
+    QColorDialog *m_colourPicker;
+    QPushButton *m_lightColourBtn;
+    QSlider *m_lightIntensity;
+    QLabel *m_typeLabel;
+    QLabel *m_colourLabel;
+    QLabel *m_intensityLabel;
+    QLabel *m_translateLabel;
+    QLabel *m_rotateLabel;
+    QDoubleSpinBox *m_tranX;
+    QDoubleSpinBox *m_tranY;
+    QDoubleSpinBox *m_tranZ;
+    QDoubleSpinBox *m_rotX;
+    QDoubleSpinBox *m_rotY;
+    QDoubleSpinBox *m_rotZ;
 };
 //------------------------------------------------------------------------------------------------------------------------
 #endif // MAINWINDOW_H

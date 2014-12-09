@@ -1,4 +1,4 @@
-TARGET=helios
+TARGET=Helios
 OBJECTS_DIR=obj
 
 # as I want to support 4.8 and 5 this will set a flag for some of the mac stuff

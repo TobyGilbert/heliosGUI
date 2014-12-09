@@ -5,6 +5,7 @@
 //------------------------------------------------------------------------------------------------------------------------
 OpenGLWidget::OpenGLWidget(const QGLFormat _format, QWidget *_parent) : QGLWidget(_format,_parent){
     // set this widget to have the initial keyboard focus
+    QGuiApplication::focusWindow();
     setFocus();
     // re-size the widget to that of the parent (in this case the GLFrame passed in on construction)
     this->resize(_parent->size());
