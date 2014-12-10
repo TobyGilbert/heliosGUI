@@ -13,9 +13,12 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QDockWidget>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
@@ -33,6 +36,12 @@ public:
     QSpacerItem *horizontalSpacer_2;
     QSpacerItem *verticalSpacer;
     QStatusBar *statusbar;
+    QDockWidget *dockWidget_4;
+    QWidget *dockWidgetContents_4;
+    QGridLayout *gridLayout_5;
+    QGroupBox *groupBox;
+    QGridLayout *gridLayout_4;
+    QPushButton *pushButton;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -63,6 +72,26 @@ public:
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QStringLiteral("statusbar"));
         MainWindow->setStatusBar(statusbar);
+        dockWidget_4 = new QDockWidget(MainWindow);
+        dockWidget_4->setObjectName(QStringLiteral("dockWidget_4"));
+        dockWidgetContents_4 = new QWidget();
+        dockWidgetContents_4->setObjectName(QStringLiteral("dockWidgetContents_4"));
+        gridLayout_5 = new QGridLayout(dockWidgetContents_4);
+        gridLayout_5->setObjectName(QStringLiteral("gridLayout_5"));
+        groupBox = new QGroupBox(dockWidgetContents_4);
+        groupBox->setObjectName(QStringLiteral("groupBox"));
+        gridLayout_4 = new QGridLayout(groupBox);
+        gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
+        pushButton = new QPushButton(groupBox);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+
+        gridLayout_4->addWidget(pushButton, 0, 0, 1, 1);
+
+
+        gridLayout_5->addWidget(groupBox, 0, 0, 1, 1);
+
+        dockWidget_4->setWidget(dockWidgetContents_4);
+        MainWindow->addDockWidget(static_cast<Qt::DockWidgetArea>(2), dockWidget_4);
 
         retranslateUi(MainWindow);
 
@@ -74,6 +103,8 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
         actionExit->setText(QApplication::translate("MainWindow", "Quit", 0));
         actionImport->setText(QApplication::translate("MainWindow", "Import", 0));
+        groupBox->setTitle(QApplication::translate("MainWindow", "GroupBox", 0));
+        pushButton->setText(QApplication::translate("MainWindow", "PushButton", 0));
     } // retranslateUi
 
 };
