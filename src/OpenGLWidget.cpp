@@ -17,7 +17,7 @@ OpenGLWidget::~OpenGLWidget(){
 //----------------------------------------------------------------------------------------------------------------------
 void OpenGLWidget::initializeGL(){
 
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClearColor(0.254f, 0.254f, 0.254f, 1.0f);
 
     // Initialize the camera
     m_cam = new Camera(glm::vec3(0.0, 1.0, 7.0));

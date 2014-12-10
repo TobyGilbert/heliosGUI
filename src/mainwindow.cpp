@@ -19,8 +19,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     // A toolbar used to hold the button associated with different elements in the scene e.g. lighting, mesh options
     m_toolBar = new QToolBar();
     m_toolBar->setOrientation(Qt::Vertical);
+    m_toolBar->setStyleSheet("background-color: rgb(47, 47, 47)");
+    m_toolBar->setStyleSheet("border-color: rgb(47, 47, 47)");
     ui->gridLayout->addWidget(m_toolBar, 0, 0, 2, 1);
 
+    // Palette
+    m_palette = new QPalette();
+    m_palette->setColor(QPalette::Text,Qt::white);
     //--------------------------------------------------------------------------------------------------------------------
     // ------------------------------------------------Light functionality------------------------------------------------
     //--------------------------------------------------------------------------------------------------------------------
@@ -39,8 +44,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     m_lightDock = new QDockWidget("Light Attributes");
 
     // Creae a drop down menu for the ligth type
-    m_typeLabel = new QLabel("Type:");
+    m_typeLabel = new QLabel();
+    m_typeLabel->setText("<font color = 'white'>Type:</font>");
     m_lightType = new QComboBox();
+
+    m_lightType->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70); border-width: 2px; border-radius: 10px;");
     m_lightType->addItem("Ambient Light");
     m_lightType->addItem("Area Light");
     m_lightType->addItem("Directional Light");
@@ -50,12 +58,18 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     // Create the colour picker
     m_colourPicker = new QColorDialog();
     m_colourPicker->setHidden(true);
-    m_colourLabel = new QLabel("Colour:");
+    m_colourLabel = new QLabel();
+    m_colourLabel->setText("<font color = 'white'>Colour:</font>");
     m_lightColourBtn = new QPushButton("Colour");
+    m_lightColourBtn->setPalette(*m_palette);
+    m_lightColourBtn->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(57, 57, 57)");
+
 
     // Make a slider to set the light intensity
     m_intensityLabel = new QLabel("Intensity:");
+    m_intensityLabel->setText("<font color = 'white'>Intensity:</font>");
     m_lightIntensity = new QSlider();
+    m_lightIntensity->setPalette(*m_palette);
     m_lightIntensity->setOrientation(Qt::Horizontal);
 
     // Add widgets to the light dock
@@ -91,21 +105,29 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     m_meshWidget->setLayout(m_meshDockLayout);
     m_meshDock = new QDockWidget("Mesh Attributes");
 
-    m_translateLabel = new QLabel("Translate: ");
+    m_translateLabel = new QLabel();
+    m_translateLabel->setText("<font color = 'white'>Translate:</font>");
     m_meshDockLayout->addWidget(m_translateLabel, 0, 0, 1, 1);
     m_tranX = new QDoubleSpinBox();
+    m_tranX->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70)");
     m_meshDockLayout->addWidget(m_tranX, 0, 1, 1, 1);
     m_tranY = new QDoubleSpinBox();
+    m_tranY->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70)");
     m_meshDockLayout->addWidget(m_tranY, 0, 2, 1, 1);
     m_tranZ = new QDoubleSpinBox();
+    m_tranZ->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70)");
     m_meshDockLayout->addWidget(m_tranZ, 0, 3, 1, 1);
-    m_rotateLabel = new QLabel("Rotate:");
+    m_rotateLabel = new QLabel();
+    m_rotateLabel->setText("<font color = 'white'>Rotate:</font>");
     m_meshDockLayout->addWidget(m_rotateLabel, 1, 0, 1, 1);
     m_rotX = new QDoubleSpinBox();
+    m_rotX->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70)");
     m_meshDockLayout->addWidget(m_rotX, 1, 1, 1, 1);
     m_rotY = new QDoubleSpinBox();
+    m_rotY->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70)");
     m_meshDockLayout->addWidget(m_rotY, 1, 2, 1, 1);
     m_rotZ = new QDoubleSpinBox();
+    m_rotZ->setStyleSheet("color: rgb(255, 255, 255); background-color: rgb(70, 70, 70)");
     m_meshDockLayout->addWidget(m_rotZ, 1, 3, 1, 1);
 
     m_meshSpacer = new QSpacerItem(1, 1, QSizePolicy::MinimumExpanding, QSizePolicy::MinimumExpanding);
@@ -136,6 +158,7 @@ MainWindow::~MainWindow(){
     delete m_typeLabel;
     // Segmentation fault for some reason ????
     //delete m_lightSpacer;
+    delete m_palette;
     delete m_colourPicker;
     delete m_colourLabel;
     delete m_lightIntensity;

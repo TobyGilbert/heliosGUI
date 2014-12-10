@@ -12,6 +12,7 @@
 #include <QColorDialog>
 #include <QPushButton>
 #include <QDoubleSpinBox>
+#include <QGroupBox>
 //------------------------------------------------------------------------------------------------------------------------
 #include <OpenGLWidget.h>
 //------------------------------------------------------------------------------------------------------------------------
@@ -88,6 +89,7 @@ private:
     QDoubleSpinBox *m_rotX;
     QDoubleSpinBox *m_rotY;
     QDoubleSpinBox *m_rotZ;
+    QPalette *m_palette;
 };
 //------------------------------------------------------------------------------------------------------------------------
 #endif // MAINWINDOW_H
