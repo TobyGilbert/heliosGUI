@@ -490,6 +490,20 @@ moc/moc_mainwindow.cpp: /Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framewo
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qdockwidget.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QMenuBar \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qmenubar.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QComboBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcombobox.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QGridLayout \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QSpacerItem \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QColorDialog \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcolordialog.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qspinbox.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QGroupBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgroupbox.h \
 		include/OpenGLWidget.h \
 		include/Camera.h \
 		/usr/local/include/glm/glm.hpp \
@@ -716,6 +730,20 @@ obj/main.o: src/main.cpp /Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framew
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qdockwidget.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QMenuBar \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qmenubar.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QComboBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcombobox.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QGridLayout \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QSpacerItem \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QColorDialog \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcolordialog.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qspinbox.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QGroupBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgroupbox.h \
 		include/OpenGLWidget.h \
 		include/Camera.h \
 		/usr/local/include/glm/glm.hpp \
@@ -823,6 +851,20 @@ obj/mainwindow.o: src/mainwindow.cpp include/mainwindow.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qdockwidget.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QMenuBar \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qmenubar.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QComboBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcombobox.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QGridLayout \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QSpacerItem \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QColorDialog \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcolordialog.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qspinbox.h \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QGroupBox \
+		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgroupbox.h \
 		include/OpenGLWidget.h \
 		include/Camera.h \
 		/usr/local/include/glm/glm.hpp \
@@ -922,7 +964,6 @@ obj/mainwindow.o: src/mainwindow.cpp include/mainwindow.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qfiledialog.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QtWidgets \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qaccessiblewidget.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcolordialog.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qdialog.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qerrormessage.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qfilesystemmodel.h \
@@ -969,9 +1010,7 @@ obj/mainwindow.o: src/mainwindow.cpp include/mainwindow.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qformlayout.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgesture.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgesturerecognizer.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlayout.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qshortcut.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qstackedlayout.h \
@@ -1004,7 +1043,6 @@ obj/mainwindow.o: src/mainwindow.cpp include/mainwindow.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qbuttongroup.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcalendarwidget.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcheckbox.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcombobox.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qcommandlinkbutton.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qdatetimeedit.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qdial.h \
@@ -1012,7 +1050,6 @@ obj/mainwindow.o: src/mainwindow.cpp include/mainwindow.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qfocusframe.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qfontcombobox.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qframe.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qgroupbox.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qkeysequenceedit.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlcdnumber.h \
@@ -1022,14 +1059,12 @@ obj/mainwindow.o: src/mainwindow.cpp include/mainwindow.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qmenu.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qplaintextedit.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qprogressbar.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qradiobutton.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qrubberband.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qscrollarea.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qscrollbar.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qsizegrip.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qslider.h \
-		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qspinbox.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qsplashscreen.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qsplitter.h \
 		/Users/Toby/Qt5.2.1/5.2.1/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qstackedwidget.h \

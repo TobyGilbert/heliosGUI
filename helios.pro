@@ -53,5 +53,6 @@ macx:DEFINES += DARWIN
 FORMS += \
     ui/mainwindow.ui
 
-OTHER_FILES +=
+OTHER_FILES += \
+    styleSheet/darkOrange
 
